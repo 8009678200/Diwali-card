@@ -6,14 +6,11 @@ st.set_page_config(
     layout="wide"
 )
 
-html_code = """
-<h1 style='text-align:center;color:orange;'>
-✨ Happy Diwali ✨
-</h1>
+with open("index.html", "r", encoding="utf-8") as f:
+    html_code = f.read()
 
-<h2 style='text-align:center;color:white;'>
-Swati & Shyam Family
-</h2>
-"""
-
-st.components.v1.html(html_code, height=700)
+st.components.v1.html(
+    html_code,
+    height=800,
+    scrolling=False
+)
