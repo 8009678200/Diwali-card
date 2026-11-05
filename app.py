@@ -208,11 +208,43 @@ name = st.text_input(
 message = f"""
 ...
 """
+st.markdown(
+    f"""
+    <div style="
+        background:linear-gradient(135deg,#ff9933,#ffcc00,#ff66cc,#9966ff);
+        padding:30px;
+        border-radius:25px;
+        text-align:center;
+        color:white;
+        font-size:22px;
+        font-weight:bold;
+        box-shadow:0 0 30px gold;
+        margin-top:20px;
+    ">
 
-st.text_area(
-    "Greeting Preview",
-    value=message,
-    height=250
+    <h1>🪔 HAPPY DIWALI 🪔</h1>
+
+    <h2>Dear {name}</h2>
+
+    <p>
+    ✨ Happiness ✨<br>
+    💰 Prosperity 💰<br>
+    🌟 Success 🌟<br>
+    ❤️ Love ❤️<br>
+    😊 Good Health 😊<br>
+    🎉 Endless Joy 🎉
+    </p>
+
+    <h3>
+    ❤️ Swati & Shyam Family ❤️
+    </h3>
+
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
 )
 
 st.download_button(
