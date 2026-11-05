@@ -130,7 +130,7 @@ if avatar_file.is_file():
 # ---------------------------
 
 st.markdown("<br>", unsafe_allow_html=True)
-family_photo = Path("Joyful Diwali Family Celebration.png")
+family_photo = Path("family.png")
 if family_photo.is_file():
     st.image(
         str(family_photo),
