@@ -194,6 +194,11 @@ st.divider()
 # ---------------------------
 # GREETING CARD
 # ---------------------------
+# =========================
+# GREETING CARD
+# =========================
+
+st.subheader("💌 Personalized Greeting Card")
 
 name = st.text_input(
     "Enter Recipient Name",
@@ -201,22 +206,7 @@ name = st.text_input(
 )
 
 message = f"""
-🪔 HAPPY DIWALI 🪔
-
-Dear {name},
-
-May this Diwali bring
-happiness,
-wealth,
-good health,
-success
-and endless joy.
-
-Wishing you and your family
-a wonderful Festival of Lights.
-
-Best Wishes,
-❤️ Swati & Shyam Family ❤️
+...
 """
 
 st.text_area(
