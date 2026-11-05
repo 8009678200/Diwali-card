@@ -164,7 +164,7 @@ if Path("avatar.gif").exists():
 
 st.markdown("<br>", unsafe_allow_html=True)
 
-if Path("family.jpg").exists():
+if Path("Joyful Diwali Family Celebration.png").exists():
     st.image(
         "family.jpg",
         caption="Our Happy Family",
