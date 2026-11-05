@@ -166,7 +166,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 if Path("Joyful Diwali Family Celebration.png").exists():
     st.image(
-        "family.jpg",
+        "Joyful Diwali Family Celebration.png",
         caption="Our Happy Family",
         use_container_width=True
     )
