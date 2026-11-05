@@ -12,7 +12,7 @@ st.set_page_config(
 # AUTO PLAY MUSIC
 # ---------------------------
 
-music_file = "diwali.mp3"
+music_file = "alex-morgan-diwali-festival-lights-celebration-575884.mp3"
 
 if Path(music_file).exists():
     with open(music_file, "rb") as f:
